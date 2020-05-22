@@ -30,7 +30,7 @@ px4_add_board(
 		irlock
 		lights/rgbled
 		magnetometer/hmc5883
-		#optical_flow/px4flow
+		optical_flow/px4flow
 		pwm_out
 		px4io
 		tone_alarm
