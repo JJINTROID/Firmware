@@ -28,7 +28,7 @@ px4_add_board(
 		differential_pressure/ms4525
 		#distance_sensor # all available distance sensor drivers
 		#distance_sensor/ll40ls
-		#distance_sensor/sf0x
+		distance_sensor/leddar1
 		#dshot
 		gps
 		#heater
@@ -51,7 +51,7 @@ px4_add_board(
 		magnetometer/hmc5883
 		#mkblctrl
 		#optical_flow # all available optical flow drivers
-		#optical_flow/px4flow
+		optical_flow/px4flow
 		#osd
 		#pca9685
 		#power_monitor/ina226
@@ -62,7 +62,7 @@ px4_add_board(
 		px4io
 		#roboclaw
 		#tap_esc
-		#telemetry # all available telemetry drivers
+		telemetry # all available telemetry drivers
 		#test_ppm
 		tone_alarm
 		#uavcan
