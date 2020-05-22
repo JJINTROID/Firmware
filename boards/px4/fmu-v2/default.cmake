@@ -27,7 +27,6 @@ px4_add_board(
 		#differential_pressure # all available differential pressure drivers
 		differential_pressure/ms4525
 		#distance_sensor # all available distance sensor drivers
-		#distance_sensor/ll40ls
 		distance_sensor/leddar_one
 		#dshot
 		gps
@@ -101,9 +100,9 @@ px4_add_board(
 		bl_update
 		#dmesg
 		#dumpfile
-		#esc_calib
+		esc_calib
 		hardfault_log
-		#i2cdetect
+		i2cdetect
 		#led_control
 		mixer
 		#motor_ramp
